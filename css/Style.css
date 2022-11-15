@@ -1,0 +1,349 @@
+html {
+  color: #222;
+  font-size: 8px !important;
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 7px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 6px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 5px !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.header-top {
+  background-color: white;
+  color: #eab9a1;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 12rem;
+  text-align: left;
+  padding-left: 6.5rem;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header-top h3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: #a95e39;
+}
+
+.header-bot {
+  background-color: #898d8e;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 8rem;
+  text-align: left;
+  position: relative;
+}
+.header-bot .button-header {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 6rem;
+}
+.header-bot button {
+  height: 8rem;
+  padding: 0 2.5rem;
+  background-color: #898d8e;
+  border: 0;
+  color: white;
+}
+@media screen and (max-width: 685px) {
+  .header-bot button {
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-bot button {
+    padding: 0;
+  }
+}
+.header-bot button:hover {
+  background-color: #558692;
+  color: black;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-div {
+  overflow: hidden;
+  height: 0;
+  padding-top: 56.25%;
+  background-color: grey;
+  background-size: cover;
+}
+
+.section-welcome {
+  background-color: #b7bcbe;
+  text-align: right;
+  padding-top: 45rem;
+  padding-right: 15rem;
+  padding-bottom: 12rem;
+}
+.section-welcome h1 {
+  font-size: 7.2rem;
+  color: white;
+}
+.section-welcome h2 {
+  font-size: 4.8rem;
+  color: #d7794a;
+}
+
+.section-leaders {
+  text-align: center;
+  padding-top: 28rem;
+  padding-bottom: 32rem;
+}
+.section-leaders h2 {
+  margin-bottom: 12.5rem;
+  font-size: 6.1rem;
+  color: #a95e39;
+}
+.section-leaders p {
+  margin-bottom: 12.5rem;
+  font-size: 3.1rem;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.section-leaders .uk-card {
+  box-shadow: none;
+  position: inherit;
+}
+.section-leaders .leader-card-container {
+  max-width: 150rem;
+  width: 100%;
+  margin: 13rem auto 0;
+}
+.section-leaders .leader-card-container p {
+  font-size: 2rem;
+}
+.section-leaders .leader-card-container h3 {
+  font-size: 3.1rem;
+}
+
+.section-happy {
+  background-color: #1f3138;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.section-happy .uk-card {
+  position: inherit;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #1f3138;
+  box-shadow: none;
+}
+.section-happy h3 {
+  color: #a95e39;
+  font-size: 7.7rem;
+}
+.section-happy p {
+  color: white;
+  font-size: 2.6rem;
+  font-weight: lighter;
+}
+
+.section-empty {
+  height: 110rem;
+  background-color: #f4f5f6;
+}
+
+.section-contact {
+  background-color: #2a3e47;
+}
+.section-contact h2 {
+  padding-top: 30rem;
+  font-size: 6.6rem;
+  color: white;
+  font-weight: lighter;
+}
+.section-contact p {
+  font-size: 2.8rem;
+  font-weight: lighter;
+  color: #5b696f;
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-contact .inputclass {
+  margin-top: 7rem;
+  background-color: #2a3e47;
+  color: #8e8e8e;
+  border-style: solid;
+  border-color: #8e8e8e;
+  border-width: 0 0 0.1rem 0;
+  padding: 1rem;
+}
+.section-contact .lftrght-container {
+  margin: 10rem auto 0;
+  display: flex;
+  max-width: 100%;
+  width: 105rem;
+  justify-content: space-evenly;
+}
+.section-contact .lftrght-container .right-input {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+}
+@media screen and (max-width: 600px) {
+  .section-contact .lftrght-container .right-input {
+    width: 30rem;
+  }
+}
+.section-contact .lftrght-container .left-input {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .section-contact .lftrght-container .left-input {
+    width: 30rem;
+  }
+}
+.section-contact .downinput {
+  max-width: 100%;
+  width: 105rem;
+  margin: 0 auto;
+}
+.section-contact .downinput input {
+  width: 95%;
+}
+.section-contact .downinput textarea {
+  width: 95%;
+  resize: none;
+}
+@media screen and (max-width: 600px) {
+  .section-contact .downinput {
+    width: 50rem;
+  }
+}
+.section-contact .button-right {
+  padding-top: 7rem;
+  padding-bottom: 18rem;
+  position: relative;
+  width: 100%;
+  max-width: 102rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .section-contact .button-right {
+    max-width: 25rem;
+  }
+}
+.section-contact .button-right button {
+  padding: 2rem 6rem;
+  background-color: #89553b;
+  color: white;
+  border-color: #623621;
+  border-width: 0.2rem;
+  border-style: solid;
+}
+.section-contact .button-right button:hover {
+  background-color: white;
+  border-color: wheat;
+  color: #89553b;
+}
+
+.about-section {
+  padding: 35rem 6rem;
+  background-color: rgb(237, 238, 238);
+}
+.about-section .uk-card {
+  position: inherit;
+}
+.about-section .circle-div {
+  background-image: url(/images/circles-image.png);
+  background-size: 100%;
+}
+
+.section-gallery {
+  width: 100%;
+}
+.section-gallery h2 {
+  padding-top: 18rem;
+  font-size: 7.2rem;
+  color: #a95e39;
+}
+.section-gallery p {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  font-size: 3rem;
+  padding: 0 15rem;
+}
+
+.footer-top {
+  background-color: #1b2c33;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2em;
+}
+.footer-top .uk-card {
+  background-color: #1b2c33;
+  box-shadow: none;
+}
+.footer-top .uk-card h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 2.4rem;
+}
+.footer-top .uk-card p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+.footer-bot {
+  max-width: 100%;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+.footer-bot .footer-bot-right {
+  position: absolute;
+  right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+.footer-bot .footer-bot-left {
+  padding-left: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=Style.css.map */
